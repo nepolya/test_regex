@@ -12,7 +12,7 @@ def find_key():
         if isinstance(k, str):
             spisok.append(k)
         else:
-            find_key(k)
+            find_key()
     return spisok
 print(find_key())
 f.close()
